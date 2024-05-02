@@ -5,3 +5,5 @@
 
 
    ### https://www.youtube.com/watch?v=NiHFqziyvyk
+
+   ok we got it launched   use npm and the docs are wrong, add run to the npm deploy,== npm run deploy
