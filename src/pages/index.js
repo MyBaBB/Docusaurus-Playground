@@ -7,6 +7,7 @@ import Junk from "./markdown-page.md";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 import Test from "./TestjsxFolder/Test.jsx";
+import Gorilla from "./Gorilla.jsx";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -19,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttonTrial}>
           <Link to="/docs/intro">Docusaurus Tutorial - 5min ⏱️</Link>
         </div>
-        <div className="z-50  "></div>
+        <div>< Gorilla /></div>
       </div>
     </header>
   );
@@ -34,8 +35,8 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <Junk />
-        <Test />
+        
+        
         <HomepageFeatures />
       </main>
     </Layout>

@@ -34,3 +34,82 @@
   align-items: center;
   justify-content: center;
 } */
+
+
+@font-face {
+  font-family: "Archivo_Black";
+  src: url(../../GoogleFonts/ArchivoBlack-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BlackOpsOne-Regular";
+  src: url(../../GoogleFonts/BlackOpsOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Creepster";
+  src: url(../../GoogleFonts/Creepster-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: "DM_Serif_Display";
+  src: url(../../GoogleFonts/DMSerifDisplay-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family: "Itim";
+  src: url(../../GoogleFonts/Itim-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kranky";
+  src: url(../../GoogleFonts/Kranky-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kingthings_Petrock";
+  src: url(../../GoogleFonts/Kingthings_Petrock.ttf);
+}
+
+@font-face {
+  font-family: "Libre_Baskerville";
+  src: url(../../GoogleFonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PT_Serif";
+  src: url(../../GoogleFonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Rye";
+  src: url(../../GoogleFonts/Rye-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Caprasimo";
+  src: url(../../GoogleFonts/Caprasimo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Nosifer";
+  src: url(../../GoogleFonts/Nosifer-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Holtwood_one_sc";
+  src: url(../../GoogleFonts/HoltwoodOneSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: "orbitron";
+  src: url(../../GoogleFonts/Orbitron-VariableFont_wght.ttf);
+}
+
+
+
+
+
