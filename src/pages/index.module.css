@@ -6,14 +6,14 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
- .buttonTrial {
+.buttonTrial {
   background-color: orange;
   color: red;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin-right: 1rem;
   text-decoration: none;
-  width:full;
+  width: full;
   height: 40px;
 }
 .heroBanner {
