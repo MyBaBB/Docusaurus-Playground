@@ -1,8 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
+ .buttonTrial {
+  background-color: orange;
+  color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  width:full;
+  height: 40px;
+}
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -16,8 +29,8 @@
   }
 }
 
-.buttons {
+/* .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
