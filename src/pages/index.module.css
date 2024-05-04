@@ -1,27 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-.buttonTrial {
-  background-color: orange;
-  color: red;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  margin-right: 1rem;
-  text-decoration: none;
-  width: full;
-  height: 40px;
-}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {

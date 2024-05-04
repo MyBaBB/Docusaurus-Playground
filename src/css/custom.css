@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 
 
@@ -34,3 +34,48 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+.buttonTrial {
+  
+ 
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  width:fit-content;
+  text-shadow: 2px 2px 4px #000000;
+}
+ .gorilla {
+  text-shadow: 2px 2px 4px #000000;
+ }
+
+
+.homeTitle {
+   
+  font-weight: bold;
+   
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  
+  
+}
+.hr5 {
+  border: 2px solid black;
+  height: 5px;
+  background-color: greenyellow;
+  
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  border-radius:12px;
+
+   }
+.hr4 {
+  border: 2px solid black;
+  height: 5px;
+  background-color: greenyellow;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  border-radius:12px;
+
+   }

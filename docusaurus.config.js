@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Component Playground',
   tagline: 'by Brett Baker',
-  favicon: 'img/octoGlasses.png',
+  favicon: 'img/GorillaIcon2.png',
 
   // Set the production url of your site here
   url: 'https://Mybabb.github.io',
@@ -80,12 +80,12 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/MyBabbLogo200x72px.png',
       navbar: {
-        title: 'Docusaurus Test Site',
+        title: '',
         logo: {
           href: 'https://MyBabb.com',
           alt: 'My Site Logo',
@@ -102,7 +102,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+
+
           {to: '/blog', label: 'Blog', position: 'left'},
+
+          {to: '/', label: '🦍', position: 'left'},
+           
+          
           {
             href: 'https://github.com/mybabb',
             label: 'GitHub',
@@ -110,6 +116,7 @@ const config = {
           },
         ],
       },
+      
       footer: {
         style: 'dark',
         links: [
