@@ -1,8 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "../pages/index.module.css";
-import { GiGorilla } from "react-icons/gi";
-import "../css/custom.css";
+import "../../../pages/index.module.css";
+
+import "./Gorilla.css";
+import GorillaBanana from "./GorillaWithBanana100px.png";
+import BananaTree from "./BananaTree2.png";
 const Gorilla = () => {
   return (
     /* --------- Under Construction Gorilla -----------  */
@@ -16,11 +18,15 @@ const Gorilla = () => {
           <p className="whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400 ">
             This Region
           </p>
-          <div className="relative flex h-[30%] w-full items-center justify-center">
-            <GiGorilla size={80} className="sc text-gray-800" />
+          <div className="relative flex   h-[100px] w-full">
+            <div className="absolute  bottom-[-1rem]  left-[0]">
+              <img src={GorillaBanana} alt="Gorilla With Banana" />
+            </div>
+            <div className="absolute   right-[-2.2rem] top-[-3rem] ">
+              <img src={BananaTree} alt="Banana Tree" />
+            </div>
           </div>
-
-          <p className="whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400">
+          <p className="mt-5 whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400">
             Under Construction
             <hr className="hr4   " />
           </p>

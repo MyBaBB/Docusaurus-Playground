@@ -45,9 +45,7 @@
   width: fit-content;
   text-shadow: 2px 2px 4px #000000;
 }
-.gorilla {
-  text-shadow: 2px 2px 4px #000000;
-}
+
 
 .homeTitle {
   font-weight: bold;
@@ -65,13 +63,4 @@
   margin-bottom: -10px;
   border-radius: 12px;
 }
-.hr4 {
-  border: 2px solid black;
-  height: 5px;
-  background-color: greenyellow;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: -10px;
-  border-radius: 12px;
-}
+
