@@ -34,6 +34,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.containerTop {
+  text-shadow: 2px 2px 4px #000000;
+}
+
 .buttonTrial {
   
  
