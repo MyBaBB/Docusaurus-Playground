@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "../../pages/index.module.css";
-import GorillaSVG from "./Gorilla-Img-Folder/whatGorilla-01.svg";
+import GorillaSVG from "./Gorilla-Img-Folder/pissedGorillaTrasny13.svg";
 import "./Gorilla.css";
 import Gorilla2Banana from "./Gorilla-Img-Folder/Gorilla2WithBanana100px.png";
 import BananaTree from ".//Gorilla-Img-Folder/BananaTree2.png";
@@ -19,19 +19,16 @@ const Gorilla = () => {
           <p className="whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400 ">
             This Region
           </p>
-          <div className="relative flex   h-[100px] w-full">
-            <div className="absolute  bottom-[-1rem]  left-[0]">
-              <img src={Gorilla2Banana} alt="Gorilla With Banana" />
-            </div>
-            <div className="absolute   right-[-2.2rem] top-[-3rem] ">
-              <img src={BananaTree} alt="Banana Tree" />
-            </div>
+          <div className="relative flex justify-center content-center mt-4    h-[100px] w-full">
+            
+ <GorillaSVG  />
+             
           </div>
           <p className="mt-5 whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400">
             Under Construction
             <hr className="hr4   " />
             <div className="GorillaTest mt-12">
-              <GorillaSVG  />
+             
             </div>
           </p>
         </div>
