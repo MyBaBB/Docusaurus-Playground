@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "../../pages/index.module.css";
-import GorillaSVG from "./SVG-to-JSX-Folder/GorillaSVG";
+import GorillaSVG from "./Gorilla-Img-Folder/whatGorilla-01.svg";
 import "./Gorilla.css";
-import Gorilla2Banana from "./Gorilla2WithBanana100px.png";
-import BananaTree from "./BananaTree2.png";
+import Gorilla2Banana from "./Gorilla-Img-Folder/Gorilla2WithBanana100px.png";
+import BananaTree from ".//Gorilla-Img-Folder/BananaTree2.png";
  
 const Gorilla = () => {
   return (

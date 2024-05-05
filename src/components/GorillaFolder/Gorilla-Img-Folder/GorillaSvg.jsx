@@ -1,12 +1,13 @@
 import React from 'react'
 
-const GorillaSVG = () => {
+
+const GorillaSVGtoJSX = () => {
   return (
-    <div>
-      
-	 
+    <div >
+      <div>
+	       
  
-		<svg className='  '
+		<svg  className='border-4 border-green-500 relative flex  '
     id="gorilla_xA0_Image_00000124846200857918765110000010768002220435277954_"
     style={{ enableBackground: 'new 0 0 400 400' }}
     version="1.1"
@@ -94,9 +95,9 @@ const GorillaSVG = () => {
 </g>
 </svg>
 
- 
+</div>
     </div>
   )
 }
 
-export default GorillaSVG
+export default GorillaSVGtoJSX

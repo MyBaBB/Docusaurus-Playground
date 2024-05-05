@@ -11,3 +11,12 @@
 .gorilla {
   text-shadow: 2px 2px 4px #000000;
 }
+ 
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+   
