@@ -1,10 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "../../../pages/index.module.css";
-
+import "../../pages/index.module.css";
+import GorillaSVG from "./SVG-to-JSX-Folder/GorillaSVG";
 import "./Gorilla.css";
 import Gorilla2Banana from "./Gorilla2WithBanana100px.png";
 import BananaTree from "./BananaTree2.png";
+ 
 const Gorilla = () => {
   return (
     /* --------- Under Construction Gorilla -----------  */
@@ -29,6 +30,9 @@ const Gorilla = () => {
           <p className="mt-5 whitespace-nowrap font-BlackOpsOne-Regular text-3xl text-lime-400">
             Under Construction
             <hr className="hr4   " />
+            <div className="GorillaTest mt-12">
+              <GorillaSVG  />
+            </div>
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 
-import Gorilla from "../components/HomepageFeatures/GorillaFolder/Gorilla";
+import Gorilla from "../components/GorillaFolder/Gorilla";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
