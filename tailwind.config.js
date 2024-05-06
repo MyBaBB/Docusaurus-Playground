@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        
 'Aclonica-Regular': ['Aclonica-Regular', 'sans-serif'],
 'ArchivoBlack-Regular': ['ArchivoBlack-Regular', 'sans-serif'],
 'Blackbeard-ld7V' : ['Blackbeard-ld7V', 'cursive'],
