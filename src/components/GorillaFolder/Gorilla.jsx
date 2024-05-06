@@ -28,6 +28,8 @@ const Gorilla = () => {
             Under Construction
             <hr className="hr4   " />
             <p className="relative mt-8 font-PTSerif-BoldItalic text-blue-200  ">SVG Max Test</p>
+
+            
             {/* <p className="relative mt-2 font-PTSerif-BoldItalic text-blue-200  ">Tailwind / Class Sorter Ready</p>
             <p className="relative mt-2 font-PTSerif-BoldItalic text-blue-200  ">Fonts Installed / Tested</p>
             <p className="relative mt-2 font-PTSerif-BoldItalic text-blue-200  ">NPM Run Format Installed</p> */}
