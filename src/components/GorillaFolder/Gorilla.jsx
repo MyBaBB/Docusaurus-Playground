@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "../../pages/index.module.css";
-import GorillaSVG from "./Gorilla-Img-Folder/pissedGorillaTrasny14.svg";
+import GorillaSVG from "./Gorilla-Img-Folder/1pissedGorillaTrasny15.svg";
 import "./Gorilla.css";
 import Gorilla2Banana from "./Gorilla-Img-Folder/Gorilla2WithBanana100px.png";
 import BananaTree from ".//Gorilla-Img-Folder/BananaTree2.png";
