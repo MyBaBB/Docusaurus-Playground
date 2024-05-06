@@ -5,31 +5,67 @@ module.exports = {
     extend: {
       fontFamily: {
 'Aclonica-Regular': ['Aclonica-Regular', 'sans-serif'],
-'ArchivoBlack': ['Archivo Black', 'sans-serif'],
+'ArchivoBlack-Regular': ['ArchivoBlack-Regular', 'sans-serif'],
+'Blackbeard-ld7V' : ['Blackbeard-ld7V', 'cursive'],
 'BlackOpsOne-Regular': ['BlackOpsOne-Regular', 'cursive'],
+'Borel-Regular': ['Borel-Regular', 'sans-serif'],
+'Caprasimo-Regular': ['Caprasimo-Regular', 'cursive'],
 'Caprasimo': ['Caprasimo', 'cursive'],
-'Creepster': ['Creepster', 'cursive'],
-'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],
-'EmilysCandy': ['Emilys Candy', 'cursive'],
-'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
-'Itim': ['Itim, cursive'],
-'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
-'Kranky': ['Kranky', 'cursive'],
-'LibreBaskerville': ['Libre Baskerville', 'serif'],
-"Montserrat": ['Montserrat', 'sans-serif'],
-'Noto Serif': ['Noto Serif', 'serif'],
-'Noto': ['Noto Sans', 'sans-serif'],
-'Nosifer': ['Nosifer', 'cursive'],
-'Orbitron': ['Orbitron', 'sans-serif'],
-'PermanentMarker': ['Permanent Marker', 'cursive'],
-'PT Serif_Bold': ['PT Serif_Bold', 'serif'],
-'PT Serif_BoldItalic': ['PT Serif_BoldItalic', 'serif'],
-"Rye": ['Rye', 'cursive'], 
-'Vollkorn': ['Vollkorn', 'serif'],
-'Wallpoet': ['Wallpoet', 'cursive'],
-'Sixtyfour': ['Sixtyfour', 'cursive'],
 'Changa-Regular': ['Changa-Regular', 'sans-serif'],
-'Blackbeard' : ['Blackbeard', 'cursive'],
+'Changa-VariableFont_wght': ['Changa-VariableFont_wght', 'sans-serif'],
+'ChunkFive-Regular': ['ChunkFive-Regular', 'sans-serif'],
+'Creepster-Regular': ['Creepster-Regular', 'cursive'],
+'DMSerifDisplay-Italic': ['DMSerifDisplay-Italic', 'serif'],
+'DMSerifDisplay-Regular': ['DMSerifDisplay-Regular', 'serif'],
+'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],
+'EmilysCandy-Regular': ['EmilysCandy-Regular', 'cursive'],
+'HoltwoodOneSC-Regular': ['HoltwoodOneSC-Regular', 'sans-serif'],
+'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
+'Iceberg-Regular': ['Iceberg-Regular', 'cursive'],
+'Itim-Regular': ['Itim-Regular, cursive'],
+'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
+'Kranky-Regular': ['Kranky-Regular', 'cursive'],
+'LibreBaskerville-Bold': ['LibreBaskerville-Bold', 'serif'],
+'LibreBaskerville-Italic': ['LibreBaskerville-Italic', 'serif'],
+'LibreBaskerville-Regular': ['LibreBaskerville-Regular', 'serif'],
+'MedievalSharp-Regular': ['MedievalSharp-Regular', 'cursive'],
+'MetalMania-Regular': ['MetalMania-Regular', 'cursive'],
+'Metamorphous-Regular': ['Metamorphous-Regular', 'cursive'],
+ 'Nosifer-Regular': ['Nosifer-Regular', 'cursive'],
+ 'NotoSans-Italic-VariableFont_wdth,wght': ['NotoSans-Italic-VariableFont_wdth,wght', 'sans-serif'],
+ 'NotoSans-VariableFont_wdth,wght': ['NotoSans-VariableFont_wdth,wght', 'sans-serif'],
+ 'NovaCut-Regular': ['NovaCut-Regular', 'sans-serif'],
+ 'Orbitron-Regular': ['Orbitron-Regular', 'sans-serif'],
+ 'Orbitron-VariableFont_wght': ['Orbitron-VariableFont_wght', 'sans-serif'],
+ 'PermanentMarker-Regular': ['PermanentMarker-Regular', 'cursive'],
+ 'PTSerif-Bold': ['PTSerif-Bold', 'serif'],
+ 'PTSerif-BoldItalic': ['PTSerif-BoldItalic', 'serif'],
+ 'PTSerif-Italic': ['PTSerif-Italic', 'serif'],
+ 'PTSerif-Regular': ['PTSerif-Regular', 'serif'],
+ 'Rye-Regular': ['Rye-Regular', 'cursive'],
+ 'Sansita-Italic': ['Sansita-Italic', 'sans-serif'],
+ 'Sansita-Regular': ['Sansita-Regular', 'sans-serif'],
+  'Sixtyfour-Regular-VariableFont': ['Sixtyfour-Regular-VariableFont', 'cursive'],
+  'Sixtyfour-Regular': ['Sixtyfour-Regular', 'cursive'],
+  'Yellowtail-Regular': ['Yellowtail-Regular', 'cursive'],
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
 },
 
 screens: {

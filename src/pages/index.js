@@ -13,7 +13,8 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="containerTop container ">
-        <h1 className="homeTitle whitespace-nowrap p-4 font-Wallpoet text-sm font-extrabold text-lime-400 xxs:text-[19px] xs:text-[24px] sm:text-[35px] ">
+        <h1 className="homeTitle whitespace-nowrap p-4 
+        font-Yellowtail-Regular text-sm font-extrabold text-lime-400 xxs:text-[19px] xs:text-[24px] sm:text-[35px] ">
           Component Playground
         </h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
