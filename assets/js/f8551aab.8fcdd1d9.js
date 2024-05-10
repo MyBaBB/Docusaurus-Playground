@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbretts_docusaurus_play_ground=self.webpackChunkbretts_docusaurus_play_ground||[]).push([[2224],{1976:(s,e,u)=>{u.r(e),u.d(e,{default:()=>c});u(6540);var r=u(781),a=u(4848);function c(){return(0,a.jsxs)(r.A,{children:[(0,a.jsx)("h1",{children:"My React page"}),(0,a.jsx)("p",{children:"This is a React page"})]})}}}]);
