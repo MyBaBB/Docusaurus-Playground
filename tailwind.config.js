@@ -50,34 +50,10 @@ module.exports = {
   'Sixtyfour-Regular': ['Sixtyfour-Regular', 'cursive'],
   'Yellowtail-Regular': ['Yellowtail-Regular', 'cursive'],
 
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
  
 },
 
-screens: {
-  'xxxs': '280px',
-  'xxs': '320px',
-  'xs': '420px',
-  'sm': '460px',
-  'md': '685px',
-  'lg': '1024px',
-  'xl': '1280px',
-},
+
 
 colors: {
   varDARKBEAKTOP: "#785001",
@@ -116,18 +92,26 @@ colors: {
   varINDIGO: '#4b0082',
   varBlUE: '#008080',
   varDARKBLUE: '#000080',
+},
+  screens: {
+    'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+    'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+             xxs: '320px',
+     xs: '420px',
+     sm: '640px',
+     md: '768px',
+     lg: '1024px',
+     xl: '1280px',
+     xxl: '1536px',
+     xxxl: '1920px',
     },
-
-
-
-
-
-
-
-
-
+ 
     },
-  },
+  
   plugins: [],
+},
 }
+
+   
+
 
