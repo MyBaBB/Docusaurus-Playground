@@ -18,13 +18,13 @@
 ---
 
 
-[![FrontPageImg](OctoPus22x80.png)](https://Resume-Hub.mybabb.com) My Portfolio Hub  
+[![FrontPageImg](./static/img/OctoPus22x80.png)](https://Resume-Hub.mybabb.com) My Portfolio Hub  
 ## 🌎 https://Resume-Hub.Mybabb.com  🦍  
 
 ---
 
 
-[![FrontPage2Img](NewMe.png)](https://MyBaBB.com)  My HomePage 
+[![FrontPage2Img](./static/img/NewMe.png)](https://MyBaBB.com)  My HomePage 
 ## 🌐 https://Mybabb.com   🧑🏻‍💻  
 
 ---
