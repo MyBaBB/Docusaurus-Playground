@@ -9,7 +9,7 @@ function DropDown() {
 
   return (
     <div
-      className="absolute left-[50%] sm:left-[85%] lg:left-[90%]  translate-x-[-50%]  
+      className="absolute left-[50%] sm:left-[87%] lg:left-[90%]  translate-x-[-50%]  
         sm:block   sm:[95%] sm:absolute
      top-[4rem] sm:top-[5rem]  z-10"
     >
@@ -42,12 +42,13 @@ function DropDown() {
               >
                 <a href="https://mybabb.com">
                   <div
-                    className=" pl-2 relative flex w-full flex-row justify-between
-                   py-1 hover:rounded-lg hover:bg-gray-800"
+                    className=" pl-2 py-2 relative flex w-full flex-row justify-between
+                   hover:rounded-lg hover:bg-gray-800"
                   >
                     <h3 className="font-bold ">{item.Thingy}</h3>
                     <h3>{item.Emoji}</h3>
                   </div>
+                   
                 </a>
 
                 <a href="https://resume-hub.mybabb.com/">
@@ -64,7 +65,7 @@ function DropDown() {
                   </div>
                 </a>
 
-                <a href="https://mybabb.github.io/About_MyBaBB/">
+                <a href="https://mybabb.com/">
                   <div className="pl-2 flex w-full  flex-row justify-between hover:rounded-lg hover:bg-gray-800  ">
                     <h3 className="font-bold">{item.Contact}</h3>
                     <h3 className="">{item.email}</h3>
