@@ -17,7 +17,7 @@ function HomepageHeader() {
        
       <div className="containerTop container ">
         
-        <h1 className="homeTitle whitespace-nowrap p-4 mt-4 sm:mt-0   
+        <h1 className="homeTitle whitespace-nowrap p-4 mt-4 sm:mt-4   
         font-PermanentMarker-Regular text-sm font-extrabold text-lime-400
          xxs:text-[19px] xs:text-[24px] sm:text-[35px] ">
           Component Playground
