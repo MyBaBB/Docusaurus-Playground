@@ -32,19 +32,15 @@
   --ifm-color-primary-lightest: #276256;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.headerGorillaBottom {
+.headerCrabBottom {
   transform: scaleX(-1);
   font-size: 38px;
-  position: fixed;
-  left:10rem;
-  top: .5rem;
+
 }
-.headerGorillaTop {
+.headerBirdTop {
  
   font-size: 38px;
-  position: fixed;
-  left:15rem;
-  top: .5rem;
+  
   
 }
 .headerGorillaScroll{

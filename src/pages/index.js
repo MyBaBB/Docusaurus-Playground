@@ -8,30 +8,39 @@ import { SiTestinglibrary } from "react-icons/si";
 import styles from "./index.module.css";
 import ToolBox from "../components/ToolBoxFolder/ToolBox";
 import Gorilla from "../components/GorillaFolder/Gorilla";
-import { GiGorilla } from "react-icons/gi";
+import { GiSadCrab } from "react-icons/gi";
+import { GiEgyptianBird } from "react-icons/gi";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
    <>
-       <a href="https://resume-hub.mybabb.com/">
-      <div className="headerOctopusWrapper hidden lg:block fixed top-3 right-[10rem]
-        z-[200]  w-8 h-8 ">
+   <div className="z-[200]   fixed top-0 w-screen    ">
+    <div className="   relative flex  justify-between w-[50%] m-auto  mt-2  ">
+      
+      <a href="#headerCrabBottom">
+      <div className="headerGorillaBottom  relative hidden md:inline-block
+        z-[202]     ">
+       <GiSadCrab size={45} className="text-amber-700" />      
+      </div>
+      </a>
+
+      
+      <a href="https://resume-hub.mybabb.com/">
+      <div className="headerOctopusWrapper  inline-block relative   
+        z-[202]  ">
        <SiTestinglibrary size={40} className="text-amber-700" />      
       </div>
       </a>
-      <a href="#headerGorillaBottom">
-      <div className="headerGorillaBottom  fixed 
-        z-[200]  w-8 h-8 ">
-       <GiGorilla size={45} className="text-amber-700" />      
+
+      <a href="#headerGorillaTop">
+      <div className="headerBirdTop  relative hidden md:inline-block   
+        z-[202] ">
+       <GiEgyptianBird size={45} className="text-amber-700" />      
       </div>
       </a>
-       <a href="#headerGorillaTop">
-      <div className="headerGorillaTop    
-        z-[200]  w-8 h-8 ">
-       <GiGorilla size={45} className="text-amber-700" />      
-      </div>
-      </a>
-       
+
+      </div  >
+      </div  >
       <ToolBox />   
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
        
