@@ -26,7 +26,7 @@ function HomepageHeader() {
 
       
       <a href="https://resume-hub.mybabb.com/">
-      <div className="headerOctopusWrapper  inline-block relative   
+      <div className="headerOctopusWrapper  hidden md:inline-block  relative   
         z-[202]  ">
        <SiTestinglibrary size={40} className=" " />      
       </div>
