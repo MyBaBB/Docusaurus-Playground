@@ -37,9 +37,9 @@ function HomepageHeader() {
        
       <div className="containerTop container ">
         
-        <h1 className="homeTitle whitespace-nowrap p-4 mt-4 md:mt-0   
-        font-PermanentMarker-Regular text-sm font-extrabold text-lime-400
-         xxs:text-[19px] xs:text-[24px] sm:text-[35px] ">
+        <h1 className="homeTitle  p-4 mt-4 md:mt-0   
+        font-PermanentMarker-Regular text-[20px] font-extrabold text-lime-400
+         xxs:text-[19px] xs:text-[24px]  ">
           Component Playground
         </h1>
         <h3>View your Custom Parts here</h3>
