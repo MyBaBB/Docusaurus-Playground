@@ -39,7 +39,7 @@ function Feature({ Svg, title, description }) {
   return (
     <>
      
-    <div id="headerGorillaBottom" className={clsx("col col--4")}>
+    <div id="headerCrabBottom" className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

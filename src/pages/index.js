@@ -14,13 +14,13 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
    <>
-   <div className="z-[200]   fixed top-0 w-screen    ">
+   <div className="z-[200]   fixed top-0 w-[80%] left-[50%] translate-x-[-50%]   ">
     <div className="   relative flex  justify-between w-[50%] m-auto  mt-2  ">
       
       <a href="#headerCrabBottom">
-      <div className="headerGorillaBottom  relative hidden md:inline-block
-        z-[202]     ">
-       <GiSadCrab size={45} className="text-amber-700" />      
+      <div className="headerCrabBottom  relative hidden md:inline-block
+        z-[202]   ">
+       <GiSadCrab size={45} className="  " />      
       </div>
       </a>
 
@@ -28,14 +28,14 @@ function HomepageHeader() {
       <a href="https://resume-hub.mybabb.com/">
       <div className="headerOctopusWrapper  inline-block relative   
         z-[202]  ">
-       <SiTestinglibrary size={40} className="text-amber-700" />      
+       <SiTestinglibrary size={40} className=" " />      
       </div>
       </a>
 
-      <a href="#headerGorillaTop">
+      <a href="#headerBirdTop">
       <div className="headerBirdTop  relative hidden md:inline-block   
         z-[202] ">
-       <GiEgyptianBird size={45} className="text-amber-700" />      
+       <GiEgyptianBird size={45} className=" " />      
       </div>
       </a>
 

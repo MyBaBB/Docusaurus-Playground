@@ -9,7 +9,7 @@ function DropDown() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div id="headerGorillaTop"
+    <div id="headerBirdTop"
       className="headerGorillaScroll absolute left-[50%] md:left-[85%] lg:left-[90%]  translate-x-[-50%]  
         sm:block   
      top-[4rem] md:top-[5rem]   z-10"
