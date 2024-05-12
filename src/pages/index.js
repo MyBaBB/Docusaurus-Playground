@@ -43,7 +43,7 @@ function HomepageHeader() {
           Component Playground
         </h1>
         <h3>View your Custom Parts here</h3>
-        <p className="hero__subtitle -mb-8 ">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div>
           <Gorilla />
         </div>
