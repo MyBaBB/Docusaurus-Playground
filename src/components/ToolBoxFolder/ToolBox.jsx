@@ -38,7 +38,7 @@ function DropDown() {
             {ToolBoxList.map((item, i) => (
               <div onClick={() => setIsOpen((prev) => !prev)}
                 className=" relative flex w-full cursor-pointer flex-col  justify-between 
-                rounded-r-lg pr-2 pb-1 border-l-2 font-l border-l-transparent hover:border-l-gray-400 hover:bg-gray-800"
+                rounded-r-lg pr-2 pb-1 border-l-2   border-l-transparent hover:border-l-gray-400 hover:bg-gray-800"
                 key={i}
               >
                 <a href="https://mybabb.com/index.html#contact">

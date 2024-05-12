@@ -14,7 +14,7 @@ function HomepageHeader() {
   return (
    <>
        <a href="https://resume-hub.mybabb.com/">
-      <div className="headerOctopusWrapper fixed top-3 right-[10rem]
+      <div className="headerOctopusWrapper hidden lg:block fixed top-3 right-[10rem]
         z-[200]  w-8 h-8 ">
        <SiTestinglibrary size={40} className="text-amber-700" />      
       </div>
@@ -37,7 +37,7 @@ function HomepageHeader() {
        
       <div className="containerTop container ">
         
-        <h1 className="homeTitle whitespace-nowrap p-4 mt-4 sm:mt-4   
+        <h1 className="homeTitle whitespace-nowrap p-4 mt-4 md:mt-0   
         font-PermanentMarker-Regular text-sm font-extrabold text-lime-400
          xxs:text-[19px] xs:text-[24px] sm:text-[35px] ">
           Component Playground
