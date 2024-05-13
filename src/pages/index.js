@@ -3,52 +3,27 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import { SiTestinglibrary } from "react-icons/si";
-// import Heading from "@theme/Heading";
+ 
+ 
 import styles from "./index.module.css";
-import ToolBox from "../components/ToolBoxFolder/ToolBox";
+ 
 import Gorilla from "../components/GorillaFolder/Gorilla";
-import { GiSadCrab } from "react-icons/gi";
-import { GiEgyptianBird } from "react-icons/gi";
+ 
+ 
+import CustomHeader from "../components/CustomHeaderFolder/CustomHeader";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
    <>
-   <div className="z-[200]   fixed top-0 w-[80%] left-[50%] translate-x-[-50%]   ">
-    <div className="   relative flex  justify-between w-[50%] m-auto  mt-2  ">
-      
-      <a href="#headerCrabBottom">
-      <div className="headerCrabBottom  relative hidden md:inline-block
-        z-[202]   ">
-       <GiSadCrab size={45} className="  " />      
-      </div>
-      </a>
-
-      
-      <a href="https://resume-hub.mybabb.com/">
-      <div className="headerOctopusWrapper  hidden md:inline-block  relative   
-        z-[202]  ">
-       <SiTestinglibrary size={40} className=" " />      
-      </div>
-      </a>
-
-      <a href="#headerBirdTop">
-      <div className="headerBirdTop  relative hidden md:inline-block   
-        z-[202] ">
-       <GiEgyptianBird size={45} className=" " />      
-      </div>
-      </a>
-
-      </div  >
-      </div  >
-      <ToolBox />   
+       <CustomHeader />
+         
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
        
       <div className="containerTop container ">
         
         <h1 className="homeTitle  p-4 mt-4 md:mt-0   
-        font-PermanentMarker-Regular text-[20px] font-extrabold text-lime-400
-         xxs:text-[19px] xs:text-[24px]  ">
+        font-Aclonica-Regular font-extrabold text-lime-400
+          text-[19px] sm:text-[25px]  md:text-[30px]  ">
           Component Playground
         </h1>
         <h3>View your Custom Parts here</h3>

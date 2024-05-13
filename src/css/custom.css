@@ -12,7 +12,7 @@
 :root {
   --ifm-color-primary: rgb(146, 141, 141);
   --ifm-color-primary-dark: rgb(135, 133, 133);
-  --ifm-color-primary-darker: rgb(116, 113, 113);
+  --ifm-color-primary-darker:-- rgb(116, 113, 113);
   --ifm-color-primary-darkest: rgb(92, 88, 88);
   --ifm-color-primary-light: rgb(135, 133, 133);
   --ifm-color-primary-lighter: rgb(174, 171, 171);
@@ -32,21 +32,7 @@
   --ifm-color-primary-lightest: #276256;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.headerCrabBottom {
-  transform: scaleX(-1);
-  font-size: 38px;
-  
-    
- 
 
-
-}
-.headerBirdTop {
- 
-  font-size: 38px;
-  
-  
-}
 .headerGorillaScroll{
   scroll-margin-top: 5.5rem;
 }
@@ -66,7 +52,6 @@
 
 .homeTitle {
   font-weight: bold;
-
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 }

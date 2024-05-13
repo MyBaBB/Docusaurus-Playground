@@ -4,8 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
-import { DiVim } from 'react-icons/di';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -89,24 +88,23 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          href: 'https://MyBabb.com',
+          href: 'https://MyBabb.com' ,
           alt: 'My Site Logo',
           src: 'img/MyBabbLogo200x72px.png',
           style: {
             borderRadius: '10px',
             outline: '2px solid #00aa00',
+            position: 'absolute',
+            width: '100px',
+            height: '40px',
+            left: '1rem',
+            top: '.75rem',
+
+            
           },
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-
-
-          // {to: '/blog', label: 'Blog', position: 'left'},
+         
 
            
          

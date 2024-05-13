@@ -1,10 +1,16 @@
 .openDrawer {
     animation: openDrawerAnimation .5s ease-in-out;
     box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 0px 1px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 1px #000;
     border: 1px solid black;
 }
-
+ .outerOpenDrawer {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  border:1px solid black;
+  border-radius: 7px;
+ }
 
 .directoryTop {
     box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
