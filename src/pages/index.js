@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
- 
+ import Carousel from "../components/Carousel/Carousel";
  
 import styles from "./index.module.css";
  
@@ -29,6 +29,7 @@ function HomepageHeader() {
         <h3>View your Custom Parts here</h3>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div>
+          < Carousel />
           <Gorilla />
         </div>
         <div className="buttonTrial  p-4  text-[12px] font-Aclonica-Regular text-white xs:text-[20px]">

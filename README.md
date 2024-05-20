@@ -1,6 +1,6 @@
  
  <!--note to self for gh-pages deploy docusaurus  
-                 GIT_USER=mybabb npm run deploy  -->
+                GIT_USER=mybabb npm run deploy   -->
  ##  Currently Contributing to the
 
   # 🌍 Climate-Tech-Handbook 🌍
