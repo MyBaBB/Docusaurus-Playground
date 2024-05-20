@@ -1,18 +1,29 @@
 // eslint-disable-next-line no-unused-vars
+;
+
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import "./Carousel.css";
- 
+
 import Windmills from "./windmills.jpg";
 import Palms from "./palms.jpg";
-import Beach from "./Beach.jpg";
-
+import Beach from "./beach.jpg";
+import EmblaCarouselFade from "embla-carousel-fade";
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: 5000 }),
+    // Initialize the fade plugin
+    EmblaCarouselFade(),
   ]);
+
+
+
+
+
+
+
 
 
   return (
