@@ -1,6 +1,4 @@
 // eslint-disable-next-line no-unused-vars
-;
-
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -18,21 +16,13 @@ export function EmblaCarousel() {
     EmblaCarouselFade(),
   ]);
 
-
-
-
-
-
-
-
-
   return (
     <div className="flex content-center  justify-center">
       <div className="embla " ref={emblaRef}>
         <div className="embla__container">
           {/* <div className="embla__slide relative justify-center flex mx-0 mx-auto ;" >
           <img src={BgImg} alt="BgImg" width={1366} height={768} className='w-full h-screen  '   /></div> */}
-         
+
           <div className="embla__slide ; relative   mx-auto flex justify-center">
             <img
               src={Windmills}

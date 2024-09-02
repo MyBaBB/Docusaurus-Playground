@@ -1,6 +1,7 @@
  
  <!--note to self for gh-pages deploy docusaurus  
-               GIT_USER=mybabb npm run deploy    cannot remember how to deploy
+                                     GIT_USER=mybabb npm run deploy  
+                  Must be in Bash Mode
                 -->
  ##  Currently Contributing to the
 

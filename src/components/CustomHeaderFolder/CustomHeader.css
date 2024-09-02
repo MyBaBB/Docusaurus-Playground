@@ -1,14 +1,11 @@
- .headerBirdTopWrapper :hover {
-  color:burlywood !important;
- 
+.headerBirdTopWrapper :hover {
+  color: burlywood !important;
 }
- .headerCrabBottomWrapper :hover {
-  color:burlywood !important;
-   
+.headerCrabBottomWrapper :hover {
+  color: burlywood !important;
 }
- .headerOctopusWrapper :hover {
-  color:burlywood !important;
- 
+.headerOctopusWrapper :hover {
+  color: burlywood !important;
 }
 
 .headerCrabBottom {
@@ -16,61 +13,55 @@
   font-size: 42px;
 }
 .headerBirdTop {
- 
   font-size: 42px;
-  
 }
 .headerOctopus {
- 
-  font-size:42px;
-  
+  font-size: 42px;
 }
 
-
 .dataToolTip2 {
-    display: inline-block;
-    position: relative;
-  }
-  .dataToolTip2:hover::before,
-  .dataToolTip2:hover::after {
-    --scale: 1;
-  }
-  .dataToolTip2::before {
-    content: "";
-    color: #000;
-    background: radial-gradient(#ade5a4, #1a770c);
-    width: max-content;
-    position: absolute;
-    content: attr(data-tool-tip);
-    left: 50%;
-    transform: translateX(-50%) scale(var(--scale));
-    transform-origin: top center;
-    transition: ease-in 0.25s;
-    bottom: -2.8rem;
-    border-radius: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    --scale: 0;
-    z-index: 12;
-    box-shadow: 2px 2px 4px #000000;
-  }
-  
-  .dataToolTip2::after {
-    content: "";
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    padding: 0.1em 0.1em 0.2em 0.1em;
-    left: 50%;
-    transform: translateX(-50%) scale(var(--scale));
-    transform-origin: bottom center;
-    transition: 0.25s;
-    bottom: -1.15rem;
-    border: 15px solid transparent;
-    border-bottom: #1a770c 10px solid;
-    --scale: 0;
-    z-index: 2;
-  }
-  
+  display: inline-block;
+  position: relative;
+}
+.dataToolTip2:hover::before,
+.dataToolTip2:hover::after {
+  --scale: 1;
+}
+.dataToolTip2::before {
+  content: "";
+  color: #000;
+  background: radial-gradient(#ade5a4, #1a770c);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: ease-in 0.25s;
+  bottom: -2.8rem;
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 12;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.dataToolTip2::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+  bottom: -1.15rem;
+  border: 15px solid transparent;
+  border-bottom: #1a770c 10px solid;
+  --scale: 0;
+  z-index: 2;
+}
