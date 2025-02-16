@@ -92,7 +92,7 @@ function DropDown() {
                   </div>
                 </a>
                 <a
-                  href="https://mybabb.github.io/About_MyBaBB/ "
+                  href="https://about.us.mybabb.com "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
